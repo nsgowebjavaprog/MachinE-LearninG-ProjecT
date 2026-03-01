@@ -12,4 +12,5 @@ Agenda of Project
 4. Initialize the git --> git init
 5. pip install -e .
 6. python setup.py install
-7. 
+7. components in src folder will help to reading a data wtih multiple operations like: EDA, Feature Eng etc.
+8. 
