@@ -1,8 +1,21 @@
-import sys
-from dataclasses import dataclass
+'''
+Data Transformation: It's a Process of converting 
 
+raw data ----> format """that is suitable for modeling""".
+
+|||-- It includes handling --||| 
+1. missing values,
+2. encoding categorical variables, 
+3. feature scaling, and more.
+
+'''
+
+import sys
+import os
 import numpy as np 
 import pandas as pd
+
+from dataclasses import dataclass
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -10,7 +23,6 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 from src.exception import CustomException
 from src.logger import logging
-import os
 
 from src.utils import save_object
 
