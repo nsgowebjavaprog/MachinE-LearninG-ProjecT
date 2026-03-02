@@ -15,3 +15,4 @@ Agenda of Project
 7. components in src folder will help to reading a data wtih multiple operations like: EDA, Feature Eng etc.
 8. for exception in "src" search """sys library python""".
 9. more about EDA and Model Training and more.
+10. see output: http://127.0.0.1:5000/predictdata
